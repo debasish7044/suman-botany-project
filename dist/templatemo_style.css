@@ -294,3 +294,7 @@ img.img-thumbnail.img-responsive.plant {
 .my-1 {
   margin: 1rem 0.2rem;
 }
+
+form {
+  margin-bottom: 2rem;
+}
