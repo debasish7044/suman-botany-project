@@ -1,0 +1,13 @@
+ul li {
+  margin-bottom: 1rem;
+}
+
+.fa-circle {
+  margin-right: 0.5rem;
+}
+
+.author {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
