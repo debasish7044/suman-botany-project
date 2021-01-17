@@ -298,3 +298,7 @@ img.img-thumbnail.img-responsive.plant {
 form {
   margin-bottom: 2rem;
 }
+
+.data-netlify-recaptcha {
+  width: 80%;
+}
