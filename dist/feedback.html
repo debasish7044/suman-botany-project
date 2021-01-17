@@ -46,7 +46,11 @@
               </ul>
             </nav>
             <!-- nav -->
-            <form action="#" method="get" class="navbar-form" role="search">
+            <form
+              method="POST"
+              data-netlify="true"
+              data-netlify-recaptcha="true"
+            >
               <div class="form-group">
                 <input
                   type="text"
@@ -139,6 +143,9 @@
                       placeholder="Message..."
                     ></textarea
                     ><br />
+                    <div class="my-2">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
                     <button type="submit" class="btn btn-primary">Send</button>
                     <button type="reset" class="btn btn-default float_r">
                       Reset
